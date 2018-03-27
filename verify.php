@@ -1,6 +1,6 @@
 <?php
 /*
-$access_token = '6HNImmTgHrBGex4FsfYsp7ytuJaedYuDCCaitM0EfYr/e4lVHoizt0d2bHtbd3isHpkHgq5yQZuJG3O02Dp3SpWKEcRGnmRvTkw4r5yAtQUcxndxD66fXJcqVgKtKns7rsDlqxaCuzEF1hwfgo+qowdB04t89/1O/w1cDnyilFU=';
+$access_token = 'MGEUJUIXTtWYMAvWXGu/kCu2tpLn++1t3Y3mT/D6LpfQbGgL25IqCb+RzcJXh7SiHpkHgq5yQZuJG3O02Dp3SpWKEcRGnmRvTkw4r5yAtQVPSDbfq31jKMky4YoQcSYJLXyHHSUqPmg3yd96LIipZwdB04t89/1O/w1cDnyilFU=';
 $url = 'https://api.line.me/oauth2/v2.1/verify';
 $headers = array('Authorization: Bearer ' . $access_token);
 $ch = curl_init($url);
@@ -12,5 +12,5 @@ curl_close($ch);
 echo $result;
 */
 
-curl -v -X GET \'https://api.line.me/oauth2/v2.1/verify?access_token=6HNImmTgHrBGex4FsfYsp7ytuJaedYuDCCaitM0EfYr/e4lVHoizt0d2bHtbd3isHpkHgq5yQZuJG3O02Dp3SpWKEcRGnmRvTkw4r5yAtQUcxndxD66fXJcqVgKtKns7rsDlqxaCuzEF1hwfgo+qowdB04t89/1O/w1cDnyilFU=';
+curl -v -X GET \'https://api.line.me/oauth2/v2.1/verify?access_token=MGEUJUIXTtWYMAvWXGu/kCu2tpLn++1t3Y3mT/D6LpfQbGgL25IqCb+RzcJXh7SiHpkHgq5yQZuJG3O02Dp3SpWKEcRGnmRvTkw4r5yAtQVPSDbfq31jKMky4YoQcSYJLXyHHSUqPmg3yd96LIipZwdB04t89/1O/w1cDnyilFU=';
 ?>
